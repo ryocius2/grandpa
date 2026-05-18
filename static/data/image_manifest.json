@@ -88,6 +88,11 @@
       { "src": "/pictures/bronzestar.png", "caption": "Bronze Star Medal Citation", "type": "personal" }
     ]
   },
+  "event_14c_dusseldorf": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — Düsseldorf", "type": "unit" }
+    ]
+  },
   "event_14b_flossenbuerg": {
     "images": [
       { "src": "/pictures/flossenburg.JPG", "caption": "Flossenburg Concentration Camp", "type": "google" },
@@ -100,6 +105,12 @@
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
     ]
   },
+  "event_15d_bamberg": {
+    "images": [
+      { "src": "/pictures/bronzestar.png", "caption": "Bronze Star Medal — awarded May 25, 1945", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
   "event_15b_paris_leave": {
     "images": [
       { "src": "/pictures/artillery.jpg", "caption": "Harold in Paris, ~May 1945", "type": "personal" }
@@ -108,6 +119,11 @@
   "event_15c_staging_le_havre": {
     "images": [
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — Homeward bound", "type": "unit" }
+    ]
+  },
+  "event_15c_camp_old_gold": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — homeward bound", "type": "unit" }
     ]
   },
   "event_16_new_york_return": {
