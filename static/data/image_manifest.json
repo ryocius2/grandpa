@@ -71,6 +71,11 @@
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
     ]
   },
+  "event_12b_rhine_crossing": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — Rhine Crossing", "type": "unit" }
+    ]
+  },
   "event_13_sieg_line": {
     "images": [
       { "src": "/pictures/artillery.JPG", "caption": "Mortar operations along the Sieg", "type": "personal" },
@@ -93,6 +98,16 @@
     "images": [
       { "src": "/pictures/ve_day.JPG", "caption": "Advance into Czechoslovakia", "type": "personal" },
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_15b_paris_leave": {
+    "images": [
+      { "src": "/pictures/artillery.jpg", "caption": "Harold in Paris, ~May 1945", "type": "personal" }
+    ]
+  },
+  "event_15c_staging_le_havre": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — Homeward bound", "type": "unit" }
     ]
   },
   "event_16_new_york_return": {
