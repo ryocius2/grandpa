@@ -59,6 +59,16 @@
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — \"Trident\"", "type": "unit" }
     ]
   },
+  "event_10b_camp_kilmer": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — staging for Europe", "type": "unit" }
+    ]
+  },
+  "event_10c_atlantic_crossing": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "USS Monticello — Atlantic crossing", "type": "unit" }
+    ]
+  },
   "event_11_le_havre": {
     "images": [
       { "src": "/pictures/artillery.jpg", "caption": "Officer Candidate School", "type": "personal"},
@@ -111,6 +121,11 @@
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
     ]
   },
+  "event_15e_train_ruins": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — heading home", "type": "unit" }
+    ]
+  },
   "event_15b_paris_leave": {
     "images": [
       { "src": "/pictures/artillery.jpg", "caption": "Harold in Paris, ~May 1945", "type": "personal" }
@@ -132,10 +147,25 @@
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
     ]
   },
+  "event_16b_camp_shanks": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — stateside", "type": "unit" }
+    ]
+  },
   "event_17_emden_home": {
     "images": [
       { "src": "/pictures/ve_day.JPG", "caption": "Home in Emden, Illinois", "type": "personal" },
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_17b_fort_bragg_redeploy": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — reassembly", "type": "unit" }
+    ]
+  },
+  "event_17c_fort_lewis": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — reequipping for Pacific", "type": "unit" }
     ]
   },
   "event_18_seattle_pacific": {
