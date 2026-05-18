@@ -1,0 +1,12 @@
+[Unit]
+Description=Cloudflare Tunnel — grandpa (boyce.marandagetsyoshed.com)
+After=network.target
+
+[Service]
+User=pi
+ExecStart=/usr/bin/cloudflared tunnel run --url http://localhost:5001 grandpa
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

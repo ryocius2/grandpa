@@ -1,0 +1,23 @@
+{
+  "default_dwell_seconds": 8,
+  "travel_speed_multiplier": 1.0,
+  "camera_altitude_at_stop": 150000,
+  "camera_altitude_during_travel": 2000000,
+  "travel_overlay_duration_seconds": 7,
+  "events": {
+    "event_01_induction": { "dwell_seconds": 10 },
+    "event_03_fort_bragg_FA": { "dwell_seconds": 10 },
+    "event_04_fort_sill_commission": { "dwell_seconds": 10 },
+    "event_11_le_havre": { "dwell_seconds": 10 },
+    "event_13_sieg_line": { "dwell_seconds": 12 },
+    "event_14_ruhr_hilden": { "dwell_seconds": 15 },
+    "event_14b_flossenbuerg": { "dwell_seconds": 12 },
+    "event_15_czechoslovakia": { "dwell_seconds": 12 },
+    "event_18_seattle_pacific": { "dwell_seconds": 12 },
+    "event_19_yokohama_arrival": { "dwell_seconds": 10 },
+    "event_23_korea_chorwon": { "dwell_seconds": 12 },
+    "event_21b_emden_teaching": { "dwell_seconds": 8 },
+    "event_24_fort_sheridan_final": { "dwell_seconds": 12 },
+    "event_25_emden_home_final": { "dwell_seconds": 12 }
+  }
+}

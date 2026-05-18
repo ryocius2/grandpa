@@ -1,0 +1,13 @@
+[Unit]
+Description=Grandpa Krusemark Story
+After=network.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/grandpa
+ExecStart=/home/pi/grandpa/venv/bin/gunicorn -w 2 -b 127.0.0.1:5001 app:app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

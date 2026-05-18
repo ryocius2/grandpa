@@ -1,0 +1,42 @@
+Deploy: boyce.marandagetsyoshed.com
+=====================================
+
+WINDOWS — one-time git setup
+[ ] Create .gitignore (contents below)
+[ ] git init && git add . && git commit -m "Initial commit"
+[ ] Create repo at github.com (name: grandpa, public)
+[ ] git remote add origin https://github.com/ryocius2/grandpa.git && git push -u origin main
+
+PI — initial deploy (SSH in)
+[ ] git clone https://github.com/ryocius2/grandpa.git && cd grandpa
+[ ] python3 -m venv venv && source venv/bin/activate && pip install flask gunicorn
+[ ] Create /etc/systemd/system/grandpa.service  (contents in deploy/grandpa.service)
+[ ] sudo systemctl enable --now grandpa
+
+PI — Cloudflare tunnel
+[ ] cloudflared tunnel create grandpa
+[ ] cloudflared tunnel route dns grandpa boyce.marandagetsyoshed.com
+[ ] Create /etc/systemd/system/grandpa-tunnel.service  (contents in deploy/grandpa-tunnel.service)
+[ ] sudo systemctl enable --now grandpa-tunnel
+
+WINDOWS — rsync pictures (one-time, then whenever pictures change)
+[ ] rsync -av pictures/ pi@<PI_IP>:/home/pi/grandpa/pictures/
+    (find PI_IP: arp -a | grep dc-a6-32  or check router)
+
+VERIFY
+[ ] Visit https://boyce.marandagetsyoshed.com — globe loads, story plays, images show
+
+FUTURE DEPLOY WORKFLOW
+  Windows: git push
+  Pi:      cd ~/grandpa && git pull && sudo systemctl restart grandpa
+  Images:  rsync -av pictures/ pi@<PI_IP>:/home/pi/grandpa/pictures/
+
+---
+
+.gitignore contents:
+  __pycache__/
+  *.pyc
+  venv/
+  pictures/
+  datasources/
+  sources/

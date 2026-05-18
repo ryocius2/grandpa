@@ -1,0 +1,775 @@
+[
+  {
+    "type": "personal",
+    "date": "1942-10-02",
+    "location": {
+      "name": "Peoria, Illinois, USA",
+      "lat": 40.6936,
+      "lon": -89.5890
+    },
+    "unit_role": "Inductee, U.S. Army",
+    "event": "Inducted into the U.S. Army in Peoria, Illinois. \"I was inducted in the U. S. Army on the 2nd of October in 1942 at Peoria, Illinois…\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information",
+        "detail": "Logan County Veteran Information – Harold E. Krusemark"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1942-10-16",
+    "location": {
+      "name": "Camp Grant, near Rockford, Illinois, USA",
+      "lat": 42.1900,
+      "lon": -89.1000
+    },
+    "unit_role": "Trainee",
+    "event": "Reported for active duty at Camp Grant. \"…and reported for active duty on October 16th, 1942 at Camp Grant, Illinois.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1942-11-01",
+      "end": "1943-06-30"
+    },
+    "location": {
+      "name": "Fort Bragg, North Carolina, USA",
+      "lat": 35.1390,
+      "lon": -79.0060
+    },
+    "unit_role": "Field Artillery trainee and instructor",
+    "event": "Completed Basic Training and remained as a Field Artillery instructor. \"My Basic Training was at Fort Bragg, North Carolina where I stayed on assignment as an instructor in the Field Artillery.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1943-07-01",
+    "approximate": true,
+    "location": {
+      "name": "Fort Sill, Oklahoma, USA",
+      "lat": 34.6640,
+      "lon": -98.3950
+    },
+    "unit_role": "Officer Candidate, Field Artillery",
+    "event": "Completed Officer Candidate School and received a commission as 2nd Lieutenant, Field Artillery. \"I received a 2nd Lieutenant's commission in Field Artillery at Fort Sill, Oklahoma.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1943-07-15",
+      "end": "1943-12-31"
+    },
+    "location": {
+      "name": "Camp Rucker, Alabama, USA",
+      "lat": 31.3400,
+      "lon": -85.7100
+    },
+    "unit_role": "Wheeled Vehicle Motor Officer, Service Battery, 161st Field Artillery, 35th Division",
+    "event": "Served as Wheeled Vehicle Motor Officer. \"I was then assigned to serve as a Wheeled Vehicle Motor Officer in the Service Battery of the 161st Field Artillery of the 35th Division at Camp Rucker, Alabama.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1943-12-01",
+      "end": "1944-02-29"
+    },
+    "location": {
+      "name": "Tennessee winter maneuver area near Nashville, USA",
+      "lat": 36.1627,
+      "lon": -86.7816
+    },
+    "unit_role": "161st Field Artillery, 35th Division",
+    "event": "Participated in Tennessee winter maneuvers just outside Nashville. \"The Division participated in the Tennessee winter maneuvers just outside of Nashville…\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1944-03-01",
+      "end": "1944-06-30"
+    },
+    "location": {
+      "name": "Camp Butner, North Carolina, USA",
+      "lat": 36.1300,
+      "lon": -78.7600
+    },
+    "unit_role": "161st Field Artillery, 35th Division",
+    "event": "Moved with the division to Camp Butner. \"…and then moved to Camp Butner, North Carolina.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1944-07-01",
+      "end": "1944-09-30"
+    },
+    "location": {
+      "name": "Fort Bragg, North Carolina, USA",
+      "lat": 35.1390,
+      "lon": -79.0060
+    },
+    "unit_role": "Assistant Executive Officer, Battery B, 375th Field Artillery Battalion, 100th Division",
+    "event": "Reassigned as Assistant Executive Officer in Battery B, 375th FA Battalion, 100th Division. \"Being reassigned as an Assistant Executive Officer in Battery B of the 375th Field Artillery Battalion of the 100th Division, again I was back to Fort Bragg, North Carolina.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1944-09-01",
+      "end": "1944-10-15"
+    },
+    "location": {
+      "name": "Fort Benning, Georgia, USA",
+      "lat": 32.3500,
+      "lon": -84.9700
+    },
+    "unit_role": "Infantry officer trainee",
+    "event": "Retrained as infantry officer due to infantry casualties in Europe. \"…many artillery officers were reassigned to the infantry. I was one of those and went to Fort Benning, Georgia for infantry retraining.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1944-10-15",
+      "end": "1945-01-31"
+    },
+    "location": {
+      "name": "Camp Cooke, California, USA",
+      "lat": 34.7500,
+      "lon": -120.5700
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry Regiment, 97th Infantry Division",
+    "event": "Joined Company M, 303rd Infantry at Camp Cooke and prepared for overseas deployment. \"My next assignment took me to Camp Cooke, California as a platoon officer in Company M of the 303rd Infantry in the 97th Division.\" He served as train commander moving materiel to the New York Port of Embarkation: \"I served as train commander along with three enlisted guards in the caboose of a freight train across the United States from California to New York.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division overview (ETO & Pacific)",
+        "note": "See 97th Infantry Division combat history summaries.",
+        "search_hint": "“97th Infantry Division Unit History” (LoneSentry.com; US Army Divisions)"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "world_event",
+    "date_range": {
+      "start": "1944-12-16",
+      "end": "1945-01-25"
+    },
+    "location": {
+      "name": "Ardennes region (Battle of the Bulge)",
+      "lat": 50.0000,
+      "lon": 6.0000
+    },
+    "unit_role": null,
+    "event": "Battle of the Bulge in the Ardennes. During this time, the 97th Infantry Division was still stateside preparing for deployment and did not participate in the battle.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Battle of the Bulge overviews",
+        "search_hint": "“Battle of the Bulge December 1944 January 1945 US Army”"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – not yet in combat",
+        "search_hint": "“97th Infantry Division entered combat April 1945”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-03-02",
+    "location": {
+      "name": "Le Havre, France",
+      "lat": 49.4944,
+      "lon": 0.1079
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Landed in France and moved to Camp Lucky Strike. Gatner: \"we landed on March 3rd, 1945 at Le Havre, France… Then we moved inland to a Camp 'Lucky Strike' where we remained over 3 weeks…\" Your grandfather’s account: \"We arrived in LaHarve, France and staged to relieve the 78th Division on line.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      },
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division combat chronicle – Le Havre & Camp Lucky Strike",
+        "search_hint": "“97th Infantry Division landed at Le Havre 2 March 1945 Camp Lucky Strike”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-03-27",
+    "location": {
+      "name": "Wockrath, Germany (near Mönchengladbach)",
+      "lat": 51.1330,
+      "lon": 6.2670
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Moved by motor convoy through northern France, Belgium, and Holland into Germany; billeted in Wockrath. Gatner: \"Our first billets were in the small town of Wockrath, somewhere north of Düsseldorf…\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-04-04",
+    "location": {
+      "name": "Rhine crossing near Bonn, Germany",
+      "lat": 50.7374,
+      "lon": 7.0982
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Crossed the Rhine on a pontoon bridge near Bonn and took up positions along the Sieg River, relieving 78th Division units. Gatner describes the relief and the difficult night movement under fire; he notes that Lt. Krusemark commanded his first mortar section during this period.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – Ruhr Pocket operations",
+        "search_hint": "“97th Infantry Division crossed the Rhine near Bonn 3 April 1945”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1945-04-05",
+      "end": "1945-04-07"
+    },
+    "location": {
+      "name": "Sieg River line near Siegburg, Germany",
+      "lat": 50.8000,
+      "lon": 7.2000
+    },
+    "unit_role": "Mortar platoon leader, Company M, 303rd Infantry",
+    "event": "Deployed mortar sections in villages along the Sieg. Gatner: \"One morning, Lt. Krusemark, who commanded my first mortar section, and I, went out on a reconnaissance and found a church whose steeple was still intact and would make an excellent observation post.\" Later, during daily German shelling, \"Krusemark and I were standing in a town square… A large shard fell at our feet… if that shell fragment had hit either of us, it would have sliced us in half.\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative (Sieg River recon & shelling passages)"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – Siegburg fighting",
+        "search_hint": "“303rd Infantry Regiment captured Siegburg April 9–10 1945”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-04-08",
+    "location": {
+      "name": "Sieg River crossing toward Siegburg, Germany",
+      "lat": 50.8000,
+      "lon": 7.2000
+    },
+    "unit_role": "Mortar platoon leader, Company M, 303rd Infantry",
+    "event": "Supported the 2nd Battalion’s assault crossing of the Sieg with heavy mortar fire. Gatner: \"Our mission… was to support the attack with mortar fire on enemy positions on the other side of the river… Initially, we gave them white phosphorus shells… When that was all gone we fired high explosive shells…\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – Ruhr Pocket combat chronicle",
+        "search_hint": "“97th Infantry Division Siegburg April 10 1945”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1945-04-11",
+      "end": "1945-04-17"
+    },
+    "location": {
+      "name": "Wahn, Mülheim, Dünnwald, Leverkusen, Bürrig, Opladen, Hilden, Düsseldorf (Germany)",
+      "lat": 51.2300,
+      "lon": 6.7800
+    },
+    "unit_role": "Mortar platoon leader, Company M, 303rd Infantry",
+    "event": "Rapid advance through the Ruhr Pocket. On 16 April at Hilden, Gatner records: \"At Hilden, with their mortars set up on the lawn of the Battalion C.P., Lt. Krusemark's section destroyed a combined 88mm anti-aircraft and searchlight battery. As a result, about 61 prisoners were taken.\" The 303rd then entered Düsseldorf, helping complete the elimination of the Ruhr Pocket.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative (Hilden 88mm battery passage)"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – Ruhr Pocket summary",
+        "search_hint": "“97th Infantry Division captured Solingen 17 April and Düsseldorf 18 April 1945”"
+      }
+    ],
+    "world_events": [
+      {
+        "name": "Collapse of the Ruhr Pocket",
+        "description": "Encirclement and destruction of German forces in the Ruhr industrial region, April 1945.",
+        "lat": 51.4500,
+        "lon": 7.0000
+      }
+    ]
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1945-04-21",
+      "end": "1945-05-07"
+    },
+    "location": {
+      "name": "Cheb and western Bohemia toward Plzeň (Czechoslovakia)",
+      "lat": 50.0700,
+      "lon": 12.3700
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Shifted to the Czech frontier and advanced toward Plzeň. Your grandfather: \"After the surrender of Dusseldorf, we were on our way to liberate Czechoslovakia and was only ten miles from Pilsen when the war in Germany ended.\" Division histories note the capture of Cheb and advance to Konstantinovy Lázně before the cease-fire.",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – Cheb and Konstantinovy Lázně",
+        "search_hint": "“97th Infantry Division took Cheb 25 April and reached Konstantinovy Lázně 7 May 1945”"
+      }
+    ],
+    "world_events": [
+      {
+        "name": "German surrender in Europe (V-E Day)",
+        "description": "Cease-fire order 7 May and formal V-E Day 8 May 1945.",
+        "lat": 50.0800,
+        "lon": 14.4300
+      }
+    ]
+  },
+  {
+    "type": "personal",
+    "date": "1945-06-24",
+    "approximate": true,
+    "location": {
+      "name": "New York Harbor, USA",
+      "lat": 40.6895,
+      "lon": -74.0445
+    },
+    "unit_role": "Returning officer, 97th Infantry Division",
+    "event": "Returned to the United States from Europe and processed through Camp Shanks and Fort Dix before leave. Gatner: \"Arrived in New York harbor… Leave orders issued and the regiment dispersed for 30 days of R & R…\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – return to U.S. June 1945",
+        "search_hint": "“97th Infantry Division returned to U.S. 26 June 1945”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1945-06-25",
+      "end": "1945-07-25"
+    },
+    "location": {
+      "name": "Emden, Illinois, USA (home leave)",
+      "lat": 40.3003,
+      "lon": -89.4837
+    },
+    "unit_role": "On leave",
+    "event": "Thirty days of rest and recuperation at home in Emden, Illinois, following return from Europe (inferred from division leave orders and your note that “home” was Emden).",
+    "sources": [
+      {
+        "type": "inferred",
+        "label": "Based on Gatner’s leave dates and HEK’s home of record"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1945-07-26",
+      "end": "1945-08-25"
+    },
+    "location": {
+      "name": "Fort Bragg, NC and Fort Lewis, WA, USA",
+      "lat": 47.1000,
+      "lon": -122.6000
+    },
+    "unit_role": "Platoon officer, 303rd Infantry, 97th Division",
+    "event": "Reassembled with the 97th Division at Fort Bragg, then moved to Fort Lewis, Washington, for re-equipping prior to deployment to the Pacific. Your grandfather: \"Within a couple weeks we were on our way back to New York. I enjoyed a two weeks leave and was ordered to report to Seattle, Washington where the 97th was preparing to go to Japan.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      },
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative (Fort Bragg & Fort Lewis movements)"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "world_event",
+    "date": "1945-08-06",
+    "location": {
+      "name": "Hiroshima, Japan",
+      "lat": 34.3853,
+      "lon": 132.4553
+    },
+    "unit_role": null,
+    "event": "Atomic bombing of Hiroshima by the United States.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Hiroshima bombing",
+        "search_hint": "“Hiroshima 6 August 1945 atomic bomb”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "world_event",
+    "date": "1945-08-09",
+    "location": {
+      "name": "Nagasaki, Japan",
+      "lat": 32.7503,
+      "lon": 129.8777
+    },
+    "unit_role": null,
+    "event": "Atomic bombing of Nagasaki by the United States.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Nagasaki bombing",
+        "search_hint": "“Nagasaki 9 August 1945 atomic bomb”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "world_event",
+    "date": "1945-08-14",
+    "location": {
+      "name": "Tokyo, Japan (Imperial government)",
+      "lat": 35.6762,
+      "lon": 139.6503
+    },
+    "unit_role": null,
+    "event": "Japan announces acceptance of Allied surrender terms (V-J Day in the U.S. on 14–15 August). This effectively cancels Operation Downfall, the planned invasion of Japan, for which the 97th Division was being redeployed.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Japanese surrender announcement",
+        "search_hint": "“Japan accepts Potsdam Declaration 14 August 1945”"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – redeployment to Pacific and occupation duty",
+        "search_hint": "“97th Infantry Division redeployed for Operation Downfall then used for occupation”"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1945-08-30",
+      "end": "1945-09-23"
+    },
+    "location": {
+      "name": "Seattle, Ulithi, Leyte, then Yokohama/Tokyo Bay",
+      "lat": 35.4500,
+      "lon": 139.6400
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry, 97th Division",
+    "event": "Sailed from Seattle toward the Philippines and then Japan as part of the planned invasion force; en route, the war ended. Your grandfather: \"The war with Japan ended while we were on the way but the Division still landed and served as occupation forces.\" Division histories place the 97th arriving at Yokohama on 23 September 1945.",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      },
+      {
+        "type": "unit_history",
+        "label": "97th Infantry Division – Cebu, Leyte, Yokohama",
+        "search_hint": "“97th Infantry Division arrived at Yokohama 23 September 1945”"
+      }
+    ],
+    "world_events": [
+      {
+        "name": "Operation Downfall cancelled",
+        "description": "Planned invasion of Japan rendered unnecessary by atomic bombings and Japanese surrender.",
+        "lat": 34.0000,
+        "lon": 135.0000
+      }
+    ]
+  },
+  {
+    "type": "personal",
+    "date": "1945-09-26",
+    "location": {
+      "name": "Near Kumagaya, north of Tokyo/Yokohama, Japan",
+      "lat": 36.1473,
+      "lon": 139.3880
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Moved by electric train to an occupation area near Kumagaya. Gatner: \"Traveled by electric train to an area about 20 miles north of Yokohama‑Tokyo, near the town of Kumagaya.\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-09-29",
+    "location": {
+      "name": "Hanyu–Oshi–Kumagaya area, Japan",
+      "lat": 36.1473,
+      "lon": 139.3880
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Motorized reconnaissance patrol during occupation duty. Gatner: \"Capt. Peterson, Lts. Foster, Krusemark, and I went on a motorized reconnaissance patrol. We went through Haniu, Osi, Kumagaya, and a number of smaller towns.\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative (Japan recon passage)"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-10-11",
+    "location": {
+      "name": "Ogashima airfield area, Japan (approx. near Kumagaya)",
+      "lat": 36.1473,
+      "lon": 139.3880
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Company M moved to an airfield at Ogashima. Gatner: \"Company M moved to an airfield at Ogashima.\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-10-18",
+    "location": {
+      "name": "Ogashima airfield, Japan",
+      "lat": 36.1473,
+      "lon": 139.3880
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Took an orientation flight in U.S. Army transport planes. Gatner: \"Two U.S. Army transport planes… landed. The pilots took Capt. Peterson, Lts. Foster and Krusemark, Sgt. Fiebrich, and five other enlisted men up for a ride.\"",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative (transport plane passage)"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1945-10-27",
+    "location": {
+      "name": "Ogashima airfield, Japan",
+      "lat": 36.1473,
+      "lon": 139.3880
+    },
+    "unit_role": "Platoon officer, Company M, 303rd Infantry",
+    "event": "Received orders to return home. Gatner: \"Orders home arrive—Leave tomorrow.\" This likely marks the start of your grandfather’s rotation back to the United States.",
+    "sources": [
+      {
+        "type": "secondary",
+        "label": "Lt. Elliot Gatner – Company M narrative"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1946-05-20",
+      "end": "1946-06-18"
+    },
+    "location": {
+      "name": "Camp McCoy (Fort McCoy), Wisconsin, USA",
+      "lat": 44.0000,
+      "lon": -90.7000
+    },
+    "unit_role": "Separating officer",
+    "event": "Returned to the United States from occupation duty and separated from active service. \"I returned to the States the latter part of May in 1946 and was separated from the service at Camp McCoy, Wisconsin on the 18th June with a Reserve Commission.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1951-05-15",
+    "location": {
+      "name": "Fort Sheridan, Illinois, USA",
+      "lat": 42.2100,
+      "lon": -87.8100
+    },
+    "unit_role": "Recalled Reserve officer",
+    "event": "Recalled to active duty for the Korean War. \"Having kept a Reserve Commission I was recalled to active duty at Fort Sheridan, Illinois on May 15, 1951.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date": "1951-06-05",
+    "location": {
+      "name": "Yokohama, Japan (Far East Command staging)",
+      "lat": 35.4500,
+      "lon": 139.6400
+    },
+    "unit_role": "Officer en route to Korea",
+    "event": "Departed for the Far East Command at Yokohama, headed for Korea. \"On June 5th I was on the way to the Far East Command at Yokohama, Japan headed for Korea.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1951-07-01",
+      "end": "1952-09-01"
+    },
+    "location": {
+      "name": "Chorwon (Chorwan) area, Korea",
+      "lat": 38.2833,
+      "lon": 127.2167
+    },
+    "unit_role": "Fire Direction Center officer, 4.2\" Chemical Mortar Platoon, 15th Infantry Regiment, 3rd Division",
+    "event": "Served in Korea supporting infantry with 4.2\" chemical mortars. \"I was assigned to the 4.2\" Chemical Mortar Platoon in the 15th Infantry Regiment of the 3rd Division as a fire direction center officer. We supported foot troops by firing white phosphorus shells prior to their advancement. We also set up defensive holding actions in the Chorwan Reservoir area.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  },
+  {
+    "type": "personal",
+    "date_range": {
+      "start": "1952-09-01",
+      "end": "1952-09-17"
+    },
+    "location": {
+      "name": "Fort Sheridan, Illinois, USA",
+      "lat": 42.2100,
+      "lon": -87.8100
+    },
+    "unit_role": "Separating officer",
+    "event": "Returned to the United States and separated from active duty. \"I returned to the States the first part of September in 1952 and was separated from the service at Fort Sheridan, Illinois on September 17.\"",
+    "sources": [
+      {
+        "type": "primary",
+        "label": "HEK Veteran Information"
+      }
+    ],
+    "world_events": []
+  }
+]

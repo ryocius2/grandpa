@@ -1,0 +1,147 @@
+[
+  {
+    "id": "world_dday",
+    "title": "D-Day — Allied Invasion of Normandy",
+    "date": "1944-06-06",
+    "date_display": "June 6, 1944",
+    "position": [-0.8667, 49.3500],
+    "type": "hostile",
+    "description": "Allied forces land on the beaches of Normandy. The massive infantry casualties from D-Day and the subsequent campaign would soon lead to artillery officers like Harold being retrained as infantry.",
+    "travel_overlay": true,
+    "overlay_between": ["event_08_fort_bragg_100th", "event_09_fort_benning_infantry"],
+    "overlay_text": "D-Day — June 6, 1944. Massive infantry casualties in Normandy drive the Army to retrain artillery officers as infantry. Harold will be one of them."
+  },
+  {
+    "id": "world_battle_of_the_bulge",
+    "title": "Battle of the Bulge",
+    "date": "1944-12-16",
+    "date_end": "1945-01-25",
+    "date_display": "Dec 16, 1944 – Jan 25, 1945",
+    "position": [6.0000, 50.0000],
+    "type": "hostile",
+    "description": "German Ardennes offensive. 89,000 American casualties. During this time, the 97th Infantry Division was still stateside at Camp Cooke preparing for deployment.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_rhine_crossing",
+    "title": "Allied Rhine Crossings",
+    "date": "1945-03-07",
+    "date_end": "1945-03-25",
+    "date_display": "March 1945",
+    "position": [7.0982, 50.7374],
+    "type": "friendly",
+    "description": "Allied forces cross the Rhine at multiple points. The 97th Division crosses on a pontoon bridge near Bonn in early April.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_ruhr_pocket",
+    "title": "Collapse of the Ruhr Pocket",
+    "date": "1945-04-01",
+    "date_end": "1945-04-18",
+    "date_display": "April 1–18, 1945",
+    "position": [7.0000, 51.4500],
+    "type": "friendly",
+    "description": "Encirclement and destruction of German forces in the Ruhr industrial region. The 97th Division captured 21,791 prisoners, cleared nearly 1,000 square miles, and seized or destroyed 109 88mm guns during this 10-day campaign.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_ve_day",
+    "title": "V-E Day — Victory in Europe",
+    "date": "1945-05-08",
+    "date_display": "May 8, 1945",
+    "position": [13.4000, 52.5200],
+    "type": "victory",
+    "description": "Germany surrenders. The 97th Division was near western Czechoslovakia, one of the few American divisions still attacking when the war ended.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_hiroshima",
+    "title": "Hiroshima — Atomic Bomb",
+    "date": "1945-08-06",
+    "date_display": "August 6, 1945",
+    "position": [132.4553, 34.3853],
+    "type": "hostile",
+    "description": "Atomic bomb dropped on Hiroshima. The 97th Division was preparing to sail from Seattle for the planned invasion of Japan.",
+    "travel_overlay": true,
+    "overlay_between": ["event_18_seattle_pacific", "event_19_yokohama_arrival"],
+    "overlay_text": "Hiroshima — August 6, 1945. The first atomic bomb is dropped. Harold's 97th Division is preparing to sail toward the planned invasion of Japan."
+  },
+  {
+    "id": "world_nagasaki",
+    "title": "Nagasaki — Atomic Bomb",
+    "date": "1945-08-09",
+    "date_display": "August 9, 1945",
+    "position": [129.8777, 32.7503],
+    "type": "hostile",
+    "description": "Second atomic bomb dropped on Nagasaki, further ensuring the cancellation of Operation Downfall.",
+    "travel_overlay": true,
+    "overlay_between": ["event_18_seattle_pacific", "event_19_yokohama_arrival"],
+    "overlay_text": "Nagasaki — August 9, 1945. The second atomic bomb is dropped, three days after Hiroshima."
+  },
+  {
+    "id": "world_japanese_surrender",
+    "title": "Japanese Surrender",
+    "date": "1945-08-14",
+    "date_end": "1945-09-02",
+    "date_display": "August 14 – September 2, 1945",
+    "position": [139.6503, 35.6762],
+    "type": "victory",
+    "description": "Japan accepts Allied surrender terms. Operation Downfall — the planned invasion of Japan — is cancelled. The 97th Division had been designated as a reserve force for Operation Coronet, the invasion of Honshu south of Kyoto. Instead, they become an occupation force. Harold sails from Seattle on August 30 aboard the USS General John Pope.",
+    "travel_overlay": true,
+    "overlay_between": ["event_18_seattle_pacific", "event_19_yokohama_arrival"],
+    "overlay_text": "Japan surrenders — August 14, 1945. Operation Downfall is cancelled. The 97th Division was slated as a reserve force for Operation Coronet — the invasion of Honshu south of Kyoto. Seven times the scale of Normandy. Harold's division becomes an occupation force instead."
+  },
+  {
+    "id": "world_operation_downfall",
+    "title": "Operation Downfall — What Was Supposed to Happen",
+    "date": "1945-08-15",
+    "date_display": "Cancelled — August 1945",
+    "position": [135.0000, 34.0000],
+    "type": "friendly",
+    "description": "Operation Downfall was the planned two-phase Allied invasion of Japan. Operation Olympic (November 1945) would invade southern Kyushu. Operation Coronet (Spring 1946) would invade the Kanto Plain on Honshu, south of Tokyo. The 97th Infantry Division was designated as a reserve force for Operation Coronet — the invasion of Honshu south of Kyoto. The operation would have been seven times the scale of Normandy, with nearly a million personnel and estimated hundreds of thousands of American casualties. When the 97th arrived at Yokohama, soldiers observed three rows of trenches along the shoreline — defenses prepared to oppose the invasion.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_korea_war_begins",
+    "title": "Korean War Begins",
+    "date": "1950-06-25",
+    "date_display": "June 25, 1950",
+    "position": [126.9780, 37.5665],
+    "type": "hostile",
+    "description": "North Korean forces invade South Korea across the 38th parallel. Harold would be recalled to active duty the following year.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_iron_triangle",
+    "title": "Iron Triangle — Positional Warfare",
+    "date": "1951-06-01",
+    "date_end": "1953-07-27",
+    "date_display": "1951–1953",
+    "position": [127.3000, 38.3000],
+    "type": "hostile",
+    "description": "The Iron Triangle — bounded by Chorwon, Kumhwa, and Pyonggang — became the focus of intense positional warfare. The 3rd Infantry Division held a sector of the Jamestown Line in this area throughout Harold's deployment.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_outpost_kelly",
+    "title": "Battle of Outpost Kelly",
+    "date": "1952-09-17",
+    "date_end": "1952-09-24",
+    "date_display": "September 17–24, 1952",
+    "position": [127.2500, 38.3200],
+    "type": "hostile",
+    "description": "The 65th Infantry Regiment (3rd Division) defends Outpost Kelly against heavy Chinese attacks. This engagement occurred in the 3rd Division's sector just as Harold was rotating home.",
+    "travel_overlay": false
+  },
+  {
+    "id": "world_chinese_escalation_1952",
+    "title": "Chinese Artillery Escalation — Summer 1952",
+    "date": "1952-07-01",
+    "date_end": "1952-10-31",
+    "date_display": "Summer–Fall 1952",
+    "position": [127.1500, 38.2500],
+    "type": "hostile",
+    "description": "Chinese forces steadily increased mortar and artillery fire through summer 1952. By September, 45,000 rounds were fired against the Eighth Army front in a single month. By October, it was the largest volume of mortar and artillery fire received during the entire war. Harold experienced a major enemy mortar attack roughly a month before heading home.",
+    "travel_overlay": false
+  }
+]

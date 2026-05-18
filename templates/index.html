@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harold "Boyce" Krusemark — Military Service</title>
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Widgets/widgets.css">
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Cesium Globe -->
+    <div id="cesiumContainer"></div>
+
+    <!-- Top Bar -->
+    <div id="topBar">
+      <h1 id="appTitle">Harold "Boyce" Krusemark</h1>
+      <div id="modeToggle">
+        <button id="btnExplore" class="mode-btn active" onclick="setMode('explore')">Explore</button>
+        <button id="btnStory" class="mode-btn" onclick="setMode('story')">Story</button>
+      </div>
+      <div id="topActions">
+        <button id="btnPresentation" class="icon-btn" onclick="togglePresentation()" title="Presentation Mode">&#9724;</button>
+        <button id="btnRecord" class="icon-btn" onclick="toggleRecording()" title="Record Video">&#9679;</button>
+        <label id="frontlineToggle">
+          <input type="checkbox" id="chkFrontlines" checked onchange="toggleFrontlines(this.checked)">
+          Frontlines
+        </label>
+      </div>
+    </div>
+
+    <!-- Story Controls -->
+    <div id="storyControls" class="hidden">
+      <button class="ctrl-btn" onclick="storyPrev()" title="Previous">&#9664;&#9664;</button>
+      <button class="ctrl-btn" id="btnPlayPause" onclick="storyTogglePlay()" title="Play">&#9654;</button>
+      <button class="ctrl-btn" onclick="storyNext()" title="Next">&#9654;&#9654;</button>
+      <div id="speedControl">
+        <button class="speed-btn active" onclick="setSpeed(1)">1x</button>
+        <button class="speed-btn" onclick="setSpeed(1.5)">1.5x</button>
+        <button class="speed-btn" onclick="setSpeed(2)">2x</button>
+      </div>
+      <div id="progressBar">
+        <div id="progressFill"></div>
+        <div id="progressDots"></div>
+      </div>
+    </div>
+
+    <!-- Timeline Sidebar -->
+    <div id="timeline">
+      <div id="timelineHeader">Timeline</div>
+      <div id="timelineEvents"></div>
+    </div>
+
+    <!-- Info Panel -->
+    <div id="infoPanel" class="hidden">
+      <button id="infoPanelClose" onclick="closeInfoPanel()">&times;</button>
+      <div id="infoPanelContent">
+        <h2 id="infoTitle"></h2>
+        <div id="infoDate" class="info-meta"></div>
+        <div id="infoUnit" class="info-meta"></div>
+        <div id="infoRole" class="info-meta"></div>
+        <div id="infoImages"></div>
+        <div id="infoDescription"></div>
+        <blockquote id="infoQuote" class="hidden">
+          <p id="infoQuoteText"></p>
+          <cite id="infoQuoteAttribution"></cite>
+        </blockquote>
+        <blockquote id="infoQuoteSecondary" class="hidden">
+          <p id="infoQuoteSecondaryText"></p>
+          <cite id="infoQuoteSecondaryAttribution"></cite>
+        </blockquote>
+        <div id="infoNearMiss" class="hidden">
+          <h3>A Brush with History</h3>
+          <p id="infoNearMissText"></p>
+        </div>
+        <div id="infoBronzeStar" class="hidden">
+          <div class="bronze-star-badge">&#9733; Bronze Star Medal</div>
+        </div>
+        <div id="infoSources">
+          <h3>Sources</h3>
+          <ul id="infoSourceList"></ul>
+        </div>
+        <div id="infoWorldContext" class="hidden">
+          <h3>What Was Happening in the War</h3>
+          <div id="infoWorldEvents"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Narration Card (Story Mode) -->
+    <div id="narrationCard" class="hidden">
+      <div id="narrationTransport" class="hidden"></div>
+      <h2 id="narrationTitle"></h2>
+      <div id="narrationDate"></div>
+      <div id="narrationUnit"></div>
+      <blockquote id="narrationQuote">
+        <p id="narrationQuoteText"></p>
+        <cite id="narrationQuoteAttribution"></cite>
+      </blockquote>
+      <div id="narrationImages"></div>
+      <div id="narrationWorldEvents"></div>
+    </div>
+
+    <!-- Travel Overlay (world events during travel) -->
+    <div id="travelOverlay" class="hidden">
+      <div id="travelOverlayText"></div>
+    </div>
+
+    <!-- Operation Downfall Special Card -->
+    <div id="downfallCard" class="hidden">
+      <h2>What Was Supposed to Happen</h2>
+      <h3>Operation Downfall</h3>
+      <div class="downfall-phases">
+        <div class="downfall-phase">
+          <strong>Operation Olympic</strong> — November 1945<br>
+          Invasion of southern Kyushu
+        </div>
+        <div class="downfall-phase">
+          <strong>Operation Coronet</strong> — Spring 1946<br>
+          Invasion of Honshu, south of Kyoto<br>
+          <em>97th Infantry Division: Reserve Force</em>
+        </div>
+      </div>
+      <p class="downfall-scale">Seven times the scale of Normandy. Nearly a million personnel. Estimated hundreds of thousands of American casualties.</p>
+      <p class="downfall-reality">Instead, the atomic bombs ended the war. Harold's division arrived at Yokohama as <strong>occupation forces</strong> — not an invasion force. When they arrived, soldiers observed three rows of trenches along the shoreline, the defenses prepared to oppose them.</p>
+    </div>
+
+    <!-- Recording indicator -->
+    <div id="recordingIndicator" class="hidden">
+      <span class="rec-dot"></span> REC
+    </div>
+
+    <!-- Image Lightbox -->
+    <div id="lightbox" class="hidden" onclick="closeLightbox(event)">
+      <button id="lightboxClose" onclick="closeLightbox()">&times;</button>
+      <img id="lightboxImg" src="" alt="">
+      <div id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.120/Build/Cesium/Cesium.js"></script>
+  <script src="/static/js/main.js"></script>
+</body>
+</html>

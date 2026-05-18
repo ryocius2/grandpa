@@ -1,0 +1,626 @@
+[
+  {
+    "id": "document",
+    "version": "1.0",
+    "clock": {
+      "interval": "1942-10-02T00:00:00Z/1952-09-17T00:00:00Z",
+      "currentTime": "1942-10-02T00:00:00Z",
+      "multiplier": 500000,
+      "range": "LOOP_STOP"
+    }
+  },
+  {
+    "id": "Harold_Krusemark",
+    "name": "Harold \"Boyce\" Krusemark",
+    "availability": "1942-10-02T00:00:00Z/1952-09-17T00:00:00Z",
+    "position": {
+      "epoch": "1942-10-02T00:00:00Z",
+      "interpolationAlgorithm": "LAGRANGE",
+      "interpolationDegree": 1,
+      "cartographicDegrees": [
+        0, -89.5890, 40.6936, 0,
+        86400, -89.1000, 42.1900, 0,
+        172800, -79.0060, 35.1390, 0,
+        259200, -98.3950, 34.6640, 0,
+        345600, -85.7100, 31.3400, 0,
+        432000, -86.7816, 36.1627, 0,
+        518400, -78.7600, 36.1300, 0,
+        604800, -79.0060, 35.1390, 0,
+        691200, -84.9700, 32.3500, 0,
+        777600, -120.5700, 34.7500, 0,
+        864000, 0.1079, 49.4944, 0,
+        950400, 6.2670, 51.1330, 0,
+        1036800, 7.2000, 50.8000, 0,
+        1123200, 6.9300, 51.1700, 0,
+        1209600, 13.4000, 49.7500, 0,
+        1296000, -74.0445, 40.6895, 0,
+        1382400, -89.4837, 40.3003, 0,
+        1468800, -122.3300, 47.6062, 0,
+        1555200, 139.6400, 35.4500, 0,
+        1641600, 139.3880, 36.1473, 0,
+        1728000, -90.7000, 44.0000, 0,
+        1814400, -87.8100, 42.2100, 0,
+        1900800, 127.2167, 38.2833, 0,
+        1987200, -87.8100, 42.2100, 0
+      ]
+    },
+    "path": {
+      "material": {
+        "polylineOutline": {
+          "color": { "rgba": [0, 153, 255, 255] },
+          "outlineColor": { "rgba": [0, 0, 0, 255] },
+          "outlineWidth": 2
+        }
+      },
+      "width": 4,
+      "leadTime": 0,
+      "trailTime": 2000000,
+      "resolution": 120,
+      "arcType": "GEODESIC"
+    },
+    "billboard": {
+      "image": "https://cesium.com/docs/tutorials/getting-started/logos/Cesium_Logo_Color.jpg",
+      "scale": 0.6,
+      "verticalOrigin": "BOTTOM"
+    },
+    "label": {
+      "text": "Harold \"Boyce\" Krusemark",
+      "font": "16pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "TOP",
+      "pixelOffset": { "cartesian2": [0, -30] }
+    },
+    "description": "<h2>Harold &quot;Boyce&quot; Krusemark – Service Path</h2><p>This entity follows his journey from induction in Peoria (1942) through WWII in Europe and Japan, and then Korea, returning home in 1952. Time offsets are placeholders (one day between events) and can be replaced with exact dates.</p>"
+  },
+
+  {
+    "id": "event_01_induction",
+    "parent": "Harold_Krusemark",
+    "availability": "1942-10-02T00:00:00Z/1942-10-03T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-89.5890, 40.6936, 0]
+    },
+    "label": {
+      "text": "Inducted – Peoria, IL",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Inducted into the U.S. Army in Peoria, Illinois.</p><p><em>“I was inducted in the U. S. Army on the 2nd of October in 1942 at Peoria, Illinois…”</em></p>"
+  },
+  {
+    "id": "event_02_camp_grant",
+    "parent": "Harold_Krusemark",
+    "availability": "1942-10-16T00:00:00Z/1942-10-17T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-89.1000, 42.1900, 0]
+    },
+    "label": {
+      "text": "Camp Grant – Active Duty",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Reported for active duty at Camp Grant, Illinois.</p><p><em>“…and reported for active duty on October 16th, 1942 at Camp Grant, Illinois.”</em></p>"
+  },
+  {
+    "id": "event_03_fort_bragg_FA",
+    "parent": "Harold_Krusemark",
+    "availability": "1943-01-01T00:00:00Z/1943-12-31T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-79.0060, 35.1390, 0]
+    },
+    "label": {
+      "text": "Fort Bragg – FA Instructor",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Completed Basic Training and remained as a Field Artillery instructor at Fort Bragg.</p><p><em>“My Basic Training was at Fort Bragg, North Carolina where I stayed on assignment as an instructor in the Field Artillery.”</em></p>"
+  },
+  {
+    "id": "event_04_fort_sill_commission",
+    "parent": "Harold_Krusemark",
+    "availability": "1943-07-01T00:00:00Z/1943-07-02T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-98.3950, 34.6640, 0]
+    },
+    "label": {
+      "text": "Fort Sill – 2nd Lt, FA",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Received a 2nd Lieutenant's commission in Field Artillery at Fort Sill, Oklahoma.</p><p><em>“I received a 2nd Lieutenant's commission in Field Artillery at Fort Sill, Oklahoma.”</em></p>"
+  },
+  {
+    "id": "event_05_camp_rucker",
+    "parent": "Harold_Krusemark",
+    "availability": "1943-08-01T00:00:00Z/1943-12-31T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-85.7100, 31.3400, 0]
+    },
+    "label": {
+      "text": "Camp Rucker – Motor Officer",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Served as Wheeled Vehicle Motor Officer in the Service Battery of the 161st Field Artillery, 35th Division.</p><p><em>“I was then assigned to serve as a Wheeled Vehicle Motor Officer in the Service Battery of the 161st Field Artillery of the 35th Division at Camp Rucker, Alabama.”</em></p>"
+  },
+  {
+    "id": "event_06_tennessee_maneuvers",
+    "parent": "Harold_Krusemark",
+    "availability": "1943-12-01T00:00:00Z/1944-02-29T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-86.7816, 36.1627, 0]
+    },
+    "label": {
+      "text": "Tennessee Winter Maneuvers",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Participated in Tennessee winter maneuvers near Nashville with the 35th Division.</p><p><em>“The Division participated in the Tennessee winter maneuvers just outside of Nashville…”</em></p>"
+  },
+  {
+    "id": "event_07_camp_butner",
+    "parent": "Harold_Krusemark",
+    "availability": "1944-03-01T00:00:00Z/1944-06-30T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-78.7600, 36.1300, 0]
+    },
+    "label": {
+      "text": "Camp Butner – 35th Division",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Moved with the 35th Division to Camp Butner, North Carolina.</p><p><em>“…and then moved to Camp Butner, North Carolina.”</em></p>"
+  },
+  {
+    "id": "event_08_fort_bragg_100th",
+    "parent": "Harold_Krusemark",
+    "availability": "1944-07-01T00:00:00Z/1944-09-30T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-79.0060, 35.1390, 0]
+    },
+    "label": {
+      "text": "Fort Bragg – 100th Division",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Assistant Executive Officer in Battery B, 375th Field Artillery Battalion, 100th Division.</p><p><em>“Being reassigned as an Assistant Executive Officer in Battery B of the 375th Field Artillery Battalion of the 100th Division, again I was back to Fort Bragg, North Carolina.”</em></p>"
+  },
+  {
+    "id": "event_09_fort_benning_infantry",
+    "parent": "Harold_Krusemark",
+    "availability": "1944-09-01T00:00:00Z/1944-10-15T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-84.9700, 32.3500, 0]
+    },
+    "label": {
+      "text": "Fort Benning – Infantry Retraining",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Retrained as an infantry officer due to heavy infantry casualties in Europe.</p><p><em>“…many artillery officers were reassigned to the infantry. I was one of those and went to Fort Benning, Georgia for infantry retraining.”</em></p>"
+  },
+  {
+    "id": "event_10_camp_cooke_97th",
+    "parent": "Harold_Krusemark",
+    "availability": "1944-10-15T00:00:00Z/1945-01-31T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-120.5700, 34.7500, 0]
+    },
+    "label": {
+      "text": "Camp Cooke – Co M, 303rd Infantry",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Joined Company M, 303rd Infantry, 97th Division as a platoon officer and prepared for overseas deployment.</p><p><em>“My next assignment took me to Camp Cooke, California as a platoon officer in Company M of the 303rd Infantry in the 97th Division.”</em></p>"
+  },
+  {
+    "id": "event_11_le_havre",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-03-03T00:00:00Z/1945-03-04T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [0.1079, 49.4944, 0]
+    },
+    "label": {
+      "text": "Le Havre – Arrival in Europe",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Landed at Le Havre, France, and staged at Camp Lucky Strike to relieve the 78th Division.</p><p><em>“We arrived in LaHarve, France and staged to relieve the 78th Division on line.”</em></p>"
+  },
+  {
+    "id": "event_12_wockrath",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-03-27T00:00:00Z/1945-04-03T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [6.2670, 51.1330, 0]
+    },
+    "label": {
+      "text": "Wockrath – First Billets in Germany",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Entered Germany and billeted in old farmhouses in Wockrath while preparing to cross the Rhine.</p>"
+  },
+  {
+    "id": "event_13_sieg_line",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-04-04T00:00:00Z/1945-04-08T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [7.2000, 50.8000, 0]
+    },
+    "label": {
+      "text": "Sieg River – Mortar Positions",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Deployed mortar sections along the Sieg River. Lt. Elliot Gatner notes: <em>“One morning, Lt. Krusemark, who commanded my first mortar section, and I, went out on a reconnaissance and found a church whose steeple was still intact and would make an excellent observation post.”</em></p>"
+  },
+  {
+    "id": "event_14_ruhr_hilden",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-04-11T00:00:00Z/1945-04-17T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [6.9300, 51.1700, 0]
+    },
+    "label": {
+      "text": "Hilden – 88mm Battery Destroyed",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>During the Ruhr Pocket advance, Gatner records: <em>“At Hilden, with their mortars set up on the lawn of the Battalion C.P., Lt. Krusemark's section destroyed a combined 88mm anti-aircraft and searchlight battery. As a result, about 61 prisoners were taken.”</em></p>"
+  },
+  {
+    "id": "event_15_czechoslovakia",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-04-25T00:00:00Z/1945-05-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [13.4000, 49.7500, 0]
+    },
+    "label": {
+      "text": "Near Plzeň – War Ends in Europe",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Advanced into western Czechoslovakia. Your grandfather wrote: <em>“After the surrender of Dusseldorf, we were on our way to liberate Czechoslovakia and was only ten miles from Pilsen when the war in Germany ended.”</em></p>"
+  },
+  {
+    "id": "event_16_new_york_return",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-06-24T00:00:00Z/1945-06-25T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-74.0445, 40.6895, 0]
+    },
+    "label": {
+      "text": "Return to New York – End of ETO Tour",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Returned to New York Harbor with the 97th Division and received leave orders.</p>"
+  },
+  {
+    "id": "event_17_emden_home",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-07-01T00:00:00Z/1945-07-31T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-89.4837, 40.3003, 0]
+    },
+    "label": {
+      "text": "Emden, IL – Home Leave",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Thirty days of rest and recuperation at home in Emden, Illinois, after returning from Europe.</p>"
+  },
+  {
+    "id": "event_18_seattle_pacific",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-08-30T00:00:00Z/1945-09-02T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-122.3300, 47.6062, 0]
+    },
+    "label": {
+      "text": "Seattle – Sailing for Japan",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Reported to Seattle as the 97th Division prepared to go to Japan. <em>“The war with Japan ended while we were on the way but the Division still landed and served as occupation forces.”</em></p>"
+  },
+  {
+    "id": "event_19_yokohama_arrival",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-09-23T00:00:00Z/1945-09-24T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [139.6400, 35.4500, 0]
+    },
+    "label": {
+      "text": "Yokohama – Arrival in Japan",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Arrived in Tokyo Bay/Yokohama as part of the occupation forces.</p>"
+  },
+  {
+    "id": "event_20_kumagaya_patrols",
+    "parent": "Harold_Krusemark",
+    "availability": "1945-09-26T00:00:00Z/1945-10-27T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [139.3880, 36.1473, 0]
+    },
+    "label": {
+      "text": "Kumagaya & Ogashima – Occupation Duty",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Occupation duty north of Tokyo. Gatner notes: <em>“Capt. Peterson, Lts. Foster, Krusemark, and I went on a motorized reconnaissance patrol. We went through Haniu, Osi, Kumagaya, and a number of smaller towns.”</em> Later: <em>“The pilots took Capt. Peterson, Lts. Foster and Krusemark, Sgt. Fiebrich, and five other enlisted men up for a ride.”</em></p>"
+  },
+  {
+    "id": "event_21_camp_mccoy_separation",
+    "parent": "Harold_Krusemark",
+    "availability": "1946-05-20T00:00:00Z/1946-06-18T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-90.7000, 44.0000, 0]
+    },
+    "label": {
+      "text": "Camp McCoy – WWII Separation",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 255, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Returned to the United States and separated from the service at Camp McCoy, Wisconsin, retaining a Reserve Commission.</p><p><em>“…was separated from the service at Camp McCoy, Wisconsin on the 18th June with a Reserve Commission.”</em></p>"
+  },
+  {
+    "id": "event_22_fort_sheridan_recall",
+    "parent": "Harold_Krusemark",
+    "availability": "1951-05-15T00:00:00Z/1951-05-16T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-87.8100, 42.2100, 0]
+    },
+    "label": {
+      "text": "Fort Sheridan – Korean War Recall",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 128, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Recalled to active duty for the Korean War.</p><p><em>“Having kept a Reserve Commission I was recalled to active duty at Fort Sheridan, Illinois on May 15, 1951.”</em></p>"
+  },
+  {
+    "id": "event_23_korea_chorwon",
+    "parent": "Harold_Krusemark",
+    "availability": "1951-07-01T00:00:00Z/1952-09-01T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [127.2167, 38.2833, 0]
+    },
+    "label": {
+      "text": "Chorwon Valley – Korea",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 128, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Served as Fire Direction Center officer in the 4.2\" Chemical Mortar Platoon, 15th Infantry Regiment, 3rd Division, supporting infantry in the Chorwon Reservoir area.</p><p><em>“We supported foot troops by firing white phosphorus shells prior to their advancement. We also set up defensive holding actions in the Chorwan Reservoir area.”</em></p>"
+  },
+  {
+    "id": "event_24_fort_sheridan_final",
+    "parent": "Harold_Krusemark",
+    "availability": "1952-09-01T00:00:00Z/1952-09-17T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [-87.8100, 42.2100, 0]
+    },
+    "label": {
+      "text": "Fort Sheridan – Final Separation",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 128, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Returned to the United States and separated from active duty on September 17, 1952.</p><p><em>“…and was separated from the service at Fort Sheridan, Illinois on September 17.”</em></p>"
+  },
+
+  {
+    "id": "world_battle_of_the_bulge",
+    "availability": "1944-12-16T00:00:00Z/1945-01-25T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [6.0000, 50.0000, 0]
+    },
+    "label": {
+      "text": "Battle of the Bulge",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 0, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>German Ardennes offensive. During this time, the 97th Infantry Division was still stateside preparing for deployment.</p>"
+  },
+  {
+    "id": "world_ve_day",
+    "availability": "1945-05-08T00:00:00Z/1945-05-09T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [13.4000, 49.7500, 0]
+    },
+    "label": {
+      "text": "V-E Day",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Victory in Europe. The 97th Division was near western Czechoslovakia, close to Plzeň.</p>"
+  },
+  {
+    "id": "world_hiroshima",
+    "availability": "1945-08-06T00:00:00Z/1945-08-07T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [132.4553, 34.3853, 0]
+    },
+    "label": {
+      "text": "Hiroshima – Atomic Bomb",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 0, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Atomic bomb dropped on Hiroshima. The 97th Division was in the process of redeploying to the Pacific.</p>"
+  },
+  {
+    "id": "world_nagasaki",
+    "availability": "1945-08-09T00:00:00Z/1945-08-10T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [129.8777, 32.7503, 0]
+    },
+    "label": {
+      "text": "Nagasaki – Atomic Bomb",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [255, 0, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Atomic bomb dropped on Nagasaki, further ensuring cancellation of Operation Downfall.</p>"
+  },
+  {
+    "id": "world_japanese_surrender",
+    "availability": "1945-08-14T00:00:00Z/1945-09-02T00:00:00Z",
+    "position": {
+      "cartographicDegrees": [139.6503, 35.6762, 0]
+    },
+    "label": {
+      "text": "Japanese Surrender",
+      "font": "12pt sans-serif",
+      "fillColor": { "rgba": [0, 255, 0, 255] },
+      "outlineColor": { "rgba": [0, 0, 0, 255] },
+      "outlineWidth": 2,
+      "style": "FILL_AND_OUTLINE",
+      "verticalOrigin": "BOTTOM",
+      "pixelOffset": { "cartesian2": [0, -20] }
+    },
+    "description": "<p>Japan accepts Allied surrender terms (August 14) and formally surrenders on September 2, 1945. Operation Downfall is cancelled; the 97th Division becomes an occupation force instead of an invasion force.</p>"
+  }
+]

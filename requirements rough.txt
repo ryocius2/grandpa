@@ -1,0 +1,14 @@
+I want a python / flask app that uses cesium maps, to help my family visualize my late grandfather's military service in WWII.  
+
+I have already converted the .pdfs in /datasources to .txt - I retained both copies if needed
+
+Rough-requirements:
+- Use events_czml.json as animation points.  events.json is what I started with and might be decent.
+- I want to be able to both click data point to data point, and ultimately create an animation/video of his service.
+- For each point, i'd like to see some image, whether it is a picture of him, the battle, or the base at the time.  I'll find some pictures and see if I can figure out when they were from, but otherwise find images/unit insignia.  I grabbed a couple, I'll get more.  I have them in /pictures with roughly where they happened.
+- For context, i'd like to understand maybe what key historical moments are happening around him during.  Many are in events_czml.json but any others that make sense would be useful.  For example, key cities, military bases, camps, etc.
+- In addition to where he was at at points in time (from events_czml.json), I'd also like to understand where the frontlines were at the time.  Recommend and incorporate a time-enabled, line-bound frontline trace throughout the war in relation to where he was.  E.g. https://www.loc.gov/collections/world-war-ii-maps-military-situation-maps/, https://www.openhistoricalmap.org/?utm_source=copilot.com, https://worldmap.harvard.edu/?utm_source=copilot.com, https://github.com/sashagavrilov/ww2-frontlines
+- For the animation between each point, I'd like to see the mode of travel.  If by land in the US, generally use a train/railroad.  If by sea, use a ship (especially if we can find out the name of the ship)
+- For the visualization pause on each point, I'd like to see a title (label->text), the point, the description, the date, and a link to the information (either the /datasources or a web link)
+- For point "event_14_ruhr_hilden" - please show an image of /datasources/"HEK Bronze Star.pdf" - that is the action my grandfather received the Bronze Star for
+- Feel free to do additional research, but for anything you add, be able to cite it.  Order of precedence on sources is items in /datasources, then unit histories, then unofficial histories, then inferred.  Pleace cite as part of the events_czml.json. 

@@ -1,0 +1,164 @@
+{
+  "event_01_induction": {
+    "images": [
+      { "src": "/pictures/enlistment.jpg", "caption": "Harold E. Krusemark", "type": "personal" },
+      { "src": "/static/images/us_army.svg", "caption": "U.S. Army", "type": "unit" }
+    ]
+  },
+  "event_02_camp_grant": {
+    "images": [
+      { "src": "/pictures/early.jpg", "caption": "Early service period", "type": "personal" },
+      { "src": "/pictures/Grant-003.jpg", "caption": "Camp Grant", "type": "unit" }
+    ]
+  },
+  "event_03_fort_bragg_FA": {
+    "images": [
+      { "src": "/pictures/training.png", "caption": "Field Artillery training", "type": "personal" },
+      { "src": "/pictures/arty.png", "caption": "Field Artillery", "type": "unit" }
+    ]
+  },
+  "event_04_fort_sill_commission": {
+    "images": [
+      { "src": "/pictures/artillery.jpg", "caption": "Officer Candidate School", "type": "personal" },
+      { "src": "/pictures/arty.png", "caption": "Field Artillery OCS", "type": "unit" }
+    ]
+  },
+  "event_05_camp_rucker": {
+    "images": [
+      { "src": "/pictures/campRucker.jpg", "caption": "Camp Rucker", "type": "base" },
+      { "src": "/static/images/35th_div.svg", "caption": "35th Infantry Division — \"Santa Fe\"", "type": "unit" }
+    ]
+  },
+  "event_06_tennessee_maneuvers": {
+    "images": [
+      { "src": "/pictures/tenessee.jpg", "caption": "Winter maneuvers near Nashville", "type": "personal" },
+      { "src": "/static/images/35th_div.svg", "caption": "35th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_07_camp_butner": {
+    "images": [
+      { "src": "/pictures/50189258748_b7ede5634a_c.jpg", "caption": "Camp Butner, North Carolina", "type": "personal" },
+      { "src": "/static/images/35th_div.svg", "caption": "35th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_08_fort_bragg_100th": {
+    "images": [
+      { "src": "/pictures/training.png", "caption": "100th Division assignment", "type": "personal" },
+      { "src": "/static/images/100th_div.svg", "caption": "100th Infantry Division — \"Century\"", "type": "unit" }
+    ]
+  },
+  "event_09_fort_benning_infantry": {
+    "images": [
+      { "src": "/pictures/training.png", "caption": "Infantry retraining", "type": "personal" },
+      { "src": "/static/images/infantry.png", "caption": "Infantry Branch", "type": "unit" }
+    ]
+  },
+  "event_10_camp_cooke_97th": {
+    "images": [
+      { "src": "/pictures/training.png", "caption": "97th Division preparation", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — \"Trident\"", "type": "unit" }
+    ]
+  },
+  "event_11_le_havre": {
+    "images": [
+      { "src": "/pictures/artillery.jpg", "caption": "Officer Candidate School", "type": "personal"},
+	  { "src": "/pictures/lehavre.jpg", "caption": "Arrival in France", "type": "google" }
+    ]
+  },
+  "event_12_wockrath": {
+    "images": [
+      { "src": "/pictures/artillery.JPG", "caption": "First billets in Germany", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_13_sieg_line": {
+    "images": [
+      { "src": "/pictures/artillery.JPG", "caption": "Mortar operations along the Sieg", "type": "personal" },
+      { "src": "/pictures/siegburg.png", "caption": "Co M, 303rd Infantry, 97th Division", "type": "unit" }
+    ]
+  },
+  "event_14_ruhr_hilden": {
+    "images": [
+      { "src": "/pictures/88.JPG", "caption": "German 88mm AA", "type": "personal" },
+      { "src": "/pictures/bronzestar.png", "caption": "Bronze Star Medal Citation", "type": "personal" }
+    ]
+  },
+  "event_14b_flossenbuerg": {
+    "images": [
+      { "src": "/pictures/flossenburg.JPG", "caption": "Flossenburg Concentration Camp", "type": "google" },
+      { "src": "/static/images/97th_div.svg", "caption": "303rd Infantry Regiment, 97th Division", "type": "unit" }
+    ]
+  },
+  "event_15_czechoslovakia": {
+    "images": [
+      { "src": "/pictures/ve_day.JPG", "caption": "Advance into Czechoslovakia", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_16_new_york_return": {
+    "images": [
+      { "src": "/pictures/ve_day.JPG", "caption": "Return from Europe", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_17_emden_home": {
+    "images": [
+      { "src": "/pictures/ve_day.JPG", "caption": "Home in Emden, Illinois", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_18_seattle_pacific": {
+    "images": [
+      { "src": "/pictures/training.png", "caption": "Preparing to sail for Japan", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — \"Trident\"", "type": "unit" }
+    ]
+  },
+  "event_19_yokohama_arrival": {
+    "images": [
+      { "src": "/pictures/japan.JPG", "caption": "Arrival in Japan", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division", "type": "unit" }
+    ]
+  },
+  "event_20_kumagaya_patrols": {
+    "images": [
+      { "src": "/pictures/Japan_occupation.JPG", "caption": "Occupation duty in Japan", "type": "personal" },
+      { "src": "/static/images/97th_div.svg", "caption": "Co M, 303rd Infantry, 97th Division", "type": "unit" }
+    ]
+  },
+  "event_21_camp_mccoy_separation": {
+    "images": [
+      { "src": "/pictures/artillery.jpg", "caption": "WWII separation", "type": "personal" },
+      { "src": "/static/images/us_army.svg", "caption": "U.S. Army Reserve", "type": "unit" }
+    ]
+  },
+  "event_21b_emden_teaching": {
+    "images": [
+      { "src": "/pictures/artillery.jpg", "caption": "Home in Emden, Illinois", "type": "personal" },
+      { "src": "/static/images/us_army.svg", "caption": "U.S. Army Reserve", "type": "unit" }
+    ]
+  },
+  "event_22_fort_sheridan_recall": {
+    "images": [
+      { "src": "/pictures/korea_recall.JPG", "caption": "Korean War recall", "type": "personal" },
+      { "src": "/static/images/3rd_div.svg", "caption": "3rd Infantry Division — \"Rock of the Marne\"", "type": "unit" }
+    ]
+  },
+  "event_23_korea_chorwon": {
+    "images": [
+      { "src": "/pictures/korea.jpeg", "caption": "Korean War service", "type": "personal" },
+      { "src": "/pictures/korea_2.JPG", "caption": "Korean War Service", "type": "personal" }
+    ]
+  },
+  "event_24_fort_sheridan_final": {
+    "images": [
+      { "src": "/pictures/korea_fun.JPG", "caption": "Return from Korea", "type": "personal" },
+      { "src": "/static/images/us_army.svg", "caption": "U.S. Army — Final Separation", "type": "unit" }
+    ]
+  },
+  "event_25_emden_home_final": {
+    "images": [
+      { "src": "/pictures/artillery.jpg", "caption": "Home for good", "type": "personal" },
+      { "src": "/static/images/us_army.svg", "caption": "U.S. Army Veteran", "type": "unit" }
+    ]
+  }
+}
