@@ -1,13 +1,13 @@
 {
   "event_01_induction": {
     "images": [
-      { "src": "/pictures/enlistment.jpg", "caption": "Harold E. Krusemark", "type": "personal" },
+      { "src": "/pictures/enlistment.JPG", "caption": "Harold E. Krusemark", "type": "personal" },
       { "src": "/static/images/us_army.svg", "caption": "U.S. Army", "type": "unit" }
     ]
   },
   "event_02_camp_grant": {
     "images": [
-      { "src": "/pictures/early.jpg", "caption": "Early service period", "type": "personal" },
+      { "src": "/pictures/early.JPG", "caption": "Early service period", "type": "personal" },
       { "src": "/pictures/Grant-003.jpg", "caption": "Camp Grant", "type": "unit" }
     ]
   },
@@ -19,7 +19,7 @@
   },
   "event_04_fort_sill_commission": {
     "images": [
-      { "src": "/pictures/artillery.jpg", "caption": "Officer Candidate School", "type": "personal" },
+      { "src": "/pictures/artillery.JPG", "caption": "Officer Candidate School", "type": "personal" },
       { "src": "/pictures/arty.png", "caption": "Field Artillery OCS", "type": "unit" }
     ]
   },
@@ -71,7 +71,7 @@
   },
   "event_11_le_havre": {
     "images": [
-      { "src": "/pictures/artillery.jpg", "caption": "Officer Candidate School", "type": "personal"},
+      { "src": "/pictures/artillery.JPG", "caption": "Officer Candidate School", "type": "personal"},
 	  { "src": "/pictures/lehavre.jpg", "caption": "Arrival in France", "type": "google" }
     ]
   },
@@ -94,7 +94,7 @@
   },
   "event_14_ruhr_hilden": {
     "images": [
-      { "src": "/pictures/88.JPG", "caption": "German 88mm AA", "type": "personal" },
+      { "src": "/pictures/88.jpg", "caption": "German 88mm AA", "type": "personal" },
       { "src": "/pictures/bronzestar.png", "caption": "Bronze Star Medal Citation", "type": "personal" }
     ]
   },
@@ -105,7 +105,7 @@
   },
   "event_14b_flossenbuerg": {
     "images": [
-      { "src": "/pictures/flossenburg.JPG", "caption": "Flossenburg Concentration Camp", "type": "google" },
+      { "src": "/pictures/Flossenburg.jpg", "caption": "Flossenburg Concentration Camp", "type": "google" },
       { "src": "/static/images/97th_div.svg", "caption": "303rd Infantry Regiment, 97th Division", "type": "unit" }
     ]
   },
@@ -128,7 +128,7 @@
   },
   "event_15b_paris_leave": {
     "images": [
-      { "src": "/pictures/artillery.jpg", "caption": "Harold in Paris, ~May 1945", "type": "personal" }
+      { "src": "/pictures/artillery.JPG", "caption": "Harold in Paris, ~May 1945", "type": "personal" }
     ]
   },
   "event_15c_staging_le_havre": {
@@ -188,13 +188,13 @@
   },
   "event_21_camp_mccoy_separation": {
     "images": [
-      { "src": "/pictures/artillery.jpg", "caption": "WWII separation", "type": "personal" },
+      { "src": "/pictures/artillery.JPG", "caption": "WWII separation", "type": "personal" },
       { "src": "/static/images/us_army.svg", "caption": "U.S. Army Reserve", "type": "unit" }
     ]
   },
   "event_21b_emden_teaching": {
     "images": [
-      { "src": "/pictures/artillery.jpg", "caption": "Home in Emden, Illinois", "type": "personal" },
+      { "src": "/pictures/artillery.JPG", "caption": "Home in Emden, Illinois", "type": "personal" },
       { "src": "/static/images/us_army.svg", "caption": "U.S. Army Reserve", "type": "unit" }
     ]
   },
@@ -218,7 +218,7 @@
   },
   "event_25_emden_home_final": {
     "images": [
-      { "src": "/pictures/artillery.jpg", "caption": "Home for good", "type": "personal" },
+      { "src": "/pictures/artillery.JPG", "caption": "Home for good", "type": "personal" },
       { "src": "/static/images/us_army.svg", "caption": "U.S. Army Veteran", "type": "unit" }
     ]
   }
