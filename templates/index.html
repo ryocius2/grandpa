@@ -20,6 +20,7 @@
         <button id="btnStory" class="mode-btn" onclick="setMode('story')">Story</button>
       </div>
       <div id="topActions">
+        <button id="mobileTimelineToggle" class="icon-btn" title="Timeline">&#9776;</button>
         <button id="btnPresentation" class="icon-btn" onclick="togglePresentation()" title="Presentation Mode">&#9724;</button>
         <button id="btnRecord" class="icon-btn" onclick="toggleRecording()" title="Record Video">&#9679;</button>
         <label id="frontlineToggle">
@@ -129,6 +130,9 @@
     <div id="recordingIndicator" class="hidden">
       <span class="rec-dot"></span> REC
     </div>
+
+    <!-- Mobile timeline backdrop -->
+    <div id="mobileOverlay"></div>
 
     <!-- Image Lightbox -->
     <div id="lightbox" class="hidden" onclick="closeLightbox(event)">

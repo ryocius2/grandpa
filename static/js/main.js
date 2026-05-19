@@ -1123,6 +1123,19 @@ document.addEventListener('keydown', (e) => {
 });
 
 // ============================================================
+// MOBILE TIMELINE TOGGLE
+// ============================================================
+document.getElementById('mobileTimelineToggle').addEventListener('click', () => {
+  document.getElementById('timeline').classList.toggle('mobile-open');
+  document.getElementById('mobileOverlay').classList.toggle('active');
+});
+
+document.getElementById('mobileOverlay').addEventListener('click', () => {
+  document.getElementById('timeline').classList.remove('mobile-open');
+  document.getElementById('mobileOverlay').classList.remove('active');
+});
+
+// ============================================================
 // BOOT
 // ============================================================
 init();

@@ -108,6 +108,8 @@ body {
 .icon-btn:hover { background: rgba(255,255,255,0.15); color: #fff; }
 .icon-btn.recording { background: #c00; color: #fff; border-color: #c00; }
 
+#mobileTimelineToggle { display: none; }
+
 #frontlineToggle {
   font-size: 12px;
   color: #aaa;
@@ -811,4 +813,126 @@ body.presentation #narrationCard {
   left: 22px;
   top: 0;
   background: rgba(255,255,255,0.08);
+}
+
+/* ============================================================
+   MOBILE (≤ 768px)
+   Desktop styles are untouched; these rules only apply on
+   narrow screens.
+   ============================================================ */
+@media (max-width: 768px) {
+
+  /* Top bar */
+  #topBar { padding: 0 10px; gap: 8px; }
+  #appTitle { font-size: 12px; letter-spacing: 0; }
+  .mode-btn { padding: 5px 10px; font-size: 12px; }
+  .icon-btn { width: 40px; height: 40px; font-size: 16px; }
+  #frontlineToggle { display: none; }
+  #mobileTimelineToggle { display: flex !important; }
+
+  /* Timeline — hidden off-screen left, slides in as overlay */
+  #timeline {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 20;
+    width: min(85vw, 300px);
+  }
+  #timeline.mobile-open { transform: translateX(0); }
+
+  /* Dim backdrop behind open timeline */
+  #mobileOverlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 19;
+  }
+  #mobileOverlay.active { display: block; }
+
+  /* Story controls — move below top bar so they don't clash with bottom sheet */
+  #storyControls {
+    top: 56px;
+    bottom: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 14px;
+    gap: 8px;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+  }
+  .ctrl-btn { width: 44px; height: 44px; }
+  #speedControl { display: none; }
+  #progressBar { width: 120px; }
+
+  /* Narration card — full-width bottom sheet */
+  #narrationCard {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 52vh;
+    overflow-y: auto;
+    border-radius: 16px 16px 0 0;
+    padding: 4px 16px 24px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 2px solid rgba(212,168,75,0.4);
+    animation: mobileCardSlideUp 0.35s ease;
+  }
+
+  /* Bottom sheet drag handle */
+  #narrationCard::before {
+    content: '';
+    display: block;
+    width: 36px;
+    height: 4px;
+    background: rgba(255,255,255,0.25);
+    border-radius: 2px;
+    margin: 8px auto 12px;
+  }
+
+  #narrationTitle { font-size: 16px; }
+  #narrationImages img { max-height: 110px; max-width: 44%; }
+  #narrationWorldEvents .narration-world-event { font-size: 11px; padding: 4px 8px; }
+
+  /* Presentation mode — keep bottom sheet on mobile */
+  body.presentation #narrationCard {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 16px 16px 0 0;
+  }
+
+  /* Info panel — full screen */
+  #infoPanel {
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border-left: none;
+  }
+
+  /* Travel overlay — full width */
+  #travelOverlay {
+    left: 8px;
+    right: 8px;
+    top: 56px;
+    transform: none;
+    max-width: none;
+  }
+
+  /* Downfall card — stack phases vertically */
+  .downfall-phases { flex-direction: column; }
+  #downfallCard { padding: 16px 18px; }
+  #downfallCard h3 { font-size: 18px; }
+  .downfall-scale { font-size: 13px; }
+}
+
+@keyframes mobileCardSlideUp {
+  from { transform: translateY(60%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
 }
