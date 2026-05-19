@@ -174,6 +174,16 @@
       { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — \"Trident\"", "type": "unit" }
     ]
   },
+  "event_18b_ulithi": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — Pacific voyage", "type": "unit" }
+    ]
+  },
+  "event_18c_leyte": {
+    "images": [
+      { "src": "/static/images/97th_div.svg", "caption": "97th Infantry Division — Leyte, Philippines", "type": "unit" }
+    ]
+  },
   "event_19_yokohama_arrival": {
     "images": [
       { "src": "/pictures/japan.JPG", "caption": "Arrival in Japan", "type": "personal" },
@@ -204,10 +214,31 @@
       { "src": "/static/images/3rd_div.svg", "caption": "3rd Infantry Division — \"Rock of the Marne\"", "type": "unit" }
     ]
   },
+  "event_22b_yokohama_replacement": {
+    "images": [
+      { "src": "/pictures/japan.JPG", "caption": "Yokohama — six years later", "type": "personal" }
+    ]
+  },
+  "event_22c_pusan_arrival": {
+    "images": [
+      { "src": "/static/images/3rd_div.svg", "caption": "3rd Infantry Division — \"Rock of the Marne\"", "type": "unit" }
+    ]
+  },
   "event_23_korea_chorwon": {
     "images": [
       { "src": "/pictures/korea.jpeg", "caption": "Korean War service", "type": "personal" },
       { "src": "/pictures/korea_2.JPG", "caption": "Korean War Service", "type": "personal" }
+    ]
+  },
+  "event_23b_jamestown_line": {
+    "images": [
+      { "src": "/static/images/3rd_div.svg", "caption": "3rd Infantry Division — Jamestown Line", "type": "unit" }
+    ]
+  },
+  "event_23c_old_baldy": {
+    "images": [
+      { "src": "/pictures/korea.jpeg", "caption": "Korea service", "type": "personal" },
+      { "src": "/static/images/3rd_div.svg", "caption": "3rd Infantry Division", "type": "unit" }
     ]
   },
   "event_24_fort_sheridan_final": {

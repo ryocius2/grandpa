@@ -21,8 +21,12 @@
     "event_15c_camp_old_gold": { "dwell_seconds": 8 },
     "event_15_czechoslovakia": { "dwell_seconds": 12 },
     "event_18_seattle_pacific": { "dwell_seconds": 12 },
+    "event_18b_ulithi": { "dwell_seconds": 8 },
+    "event_18c_leyte": { "dwell_seconds": 8 },
     "event_19_yokohama_arrival": { "dwell_seconds": 10 },
     "event_23_korea_chorwon": { "dwell_seconds": 12 },
+    "event_23b_jamestown_line": { "dwell_seconds": 10 },
+    "event_23c_old_baldy": { "dwell_seconds": 12 },
     "event_21b_emden_teaching": { "dwell_seconds": 8 },
     "event_24_fort_sheridan_final": { "dwell_seconds": 12 },
     "event_25_emden_home_final": { "dwell_seconds": 12 }
