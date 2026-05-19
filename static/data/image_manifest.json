@@ -249,8 +249,7 @@
   },
   "event_25_emden_home_final": {
     "images": [
-      { "src": "/pictures/artillery.JPG", "caption": "Home for good", "type": "personal" },
-      { "src": "/static/images/us_army.svg", "caption": "U.S. Army Veteran", "type": "unit" }
+      { "src": "/pictures/grandpa.jpg", "caption": "Harold \"Boyce\" Krusemark", "type": "personal" }
     ]
   }
 }
