@@ -836,6 +836,7 @@ body.presentation #narrationCard {
     transition: transform 0.3s ease;
     z-index: 20;
     width: min(85vw, 300px);
+    padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 24px);
   }
   #timeline.mobile-open { transform: translateX(0); }
 
@@ -849,16 +850,17 @@ body.presentation #narrationCard {
   }
   #mobileOverlay.active { display: block; }
 
-  /* Story controls — move below top bar so they don't clash with bottom sheet */
+  /* Story controls — below top bar, above narration card */
   #storyControls {
     top: 56px;
-    bottom: auto;
+    bottom: auto !important;
     left: 50%;
     transform: translateX(-50%);
     padding: 8px 14px;
     gap: 8px;
     border-radius: 0 0 10px 10px;
     border-top: none;
+    z-index: 16;
   }
   .ctrl-btn { width: 44px; height: 44px; }
   #speedControl { display: none; }
@@ -874,12 +876,13 @@ body.presentation #narrationCard {
     max-height: 52vh;
     overflow-y: auto;
     border-radius: 16px 16px 0 0;
-    padding: 4px 16px 24px;
+    padding: 4px 16px calc(24px + env(safe-area-inset-bottom, 0px));
     border-left: none;
     border-right: none;
     border-bottom: none;
     border-top: 2px solid rgba(212,168,75,0.4);
     animation: mobileCardSlideUp 0.35s ease;
+    z-index: 15;
   }
 
   /* Bottom sheet drag handle */
